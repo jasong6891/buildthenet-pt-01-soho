@@ -14,15 +14,6 @@ Hollis & Fane, a two-person bookkeeping practice, is moving into a converted sho
 
 Every larger design is this one repeated. Getting a gateway, a subnet and a default route right for a client who just wants their PCs online is what makes the next twenty projects readable.
 
-## Requirements
-
-| # | Requirement | Status | Checked by |
-|---|---|---|---|
-| 1 | Place a router, a switch and at least two PCs, cabled into one LAN. | Passed | Sandbox check |
-| 2 | Address the LAN from a single /24 and give the router the first usable address. | Passed | Sandbox check |
-| 3 | Hand out host addresses from a DHCP pool on the router, excluding the gateway. | Not yet passing | Sandbox check |
-| 4 | Give the router a default route toward the ISP. | Not yet passing | Sandbox check |
-
 ## Topology
 
 ![Topology diagram](topology.svg)
